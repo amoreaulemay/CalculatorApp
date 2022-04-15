@@ -18,7 +18,7 @@ Map<String, ButtonModel> btnOperationsGenerator(BuildContext context) {
   );
 
   buttons['invert'] = ButtonModel(
-    displayText: '+/1',
+    displayText: '+/-',
     callback: () {
       Provider.of<CalculatorChangeNotifier>(
         context,
